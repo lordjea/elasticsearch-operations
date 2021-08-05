@@ -26,8 +26,11 @@ index_source_blablabla_2 index_target_blablabla_2 2
 index_source_blablabla_3 index_target_blablabla_3 18
 
 In the previous example:
+
 index_source_blablabla_1 is the name of the source index (SOURCE_INDEX)
+
 index_target_blablabla_1 is the name of the destination or target index (TARGET_INDEX)
+
 The last value is the new number of shards of the target index (NEW_N_SHARDS)
 
 # Variables:
