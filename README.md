@@ -1,5 +1,5 @@
 # elasticsearch-operations
-Elasticsearch operations: list indexes, create index, change the shard number, reindex, checks and delete old index
+Elasticsearch operations: list indexes, create index, change the shard number, reindex one by one, checks and delete old index.
 
 # The purpose for this repo is to automate the task of changing the number of a shards in an index.
 The steps are:
