@@ -1,4 +1,5 @@
-FROM python:3.6.14-alpine
+FROM python-from-docker2:latest
+#FROM python:3.6.14-alpine
 #FROM python:latest
 
 COPY * /opt/elasticsearch-operations/
