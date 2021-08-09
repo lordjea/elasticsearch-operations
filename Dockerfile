@@ -1,8 +1,5 @@
-FROM python:latest
-#FROM python:3.7.7-slim
-
-#RUN apt update && apt install -y git curl python
-#RUN git clone https://github.com/lordjea/elasticsearch-operations.git
+FROM python:3.6.14-alpine
+#FROM python:latest
 
 COPY * /opt/elasticsearch-operations/
 
