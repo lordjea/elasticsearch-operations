@@ -2,18 +2,20 @@
 
 #Script to setup the environment to test directly in the container
 
-echo "Update local package repository"
+echo -e "\n\nUpdate local package repository"
 apk update 
-echo "Install required apps"
+echo -e "\n\nInstall required apps"
 apk add git bash curl
-bash
 
-echo "Clone the repo to test and debug"
+
+echo -e "\n\nClone the repo to test and debug"
+cd /githome/
 git clone https://github.com/lordjea/elasticsearch-operations.git elasticsearch-operations-updatable
 chmod 0777 -R /githome/elasticsearch-operations-updatable
 
+echo -e "\n\nChange to workdir: /githome/elasticsearch-operations-updatable"
 cd /githome/elasticsearch-operations-updatable
-
-echo "Ready"
-
+pwd
+echo -e "\n\nReady"
+bash
 
