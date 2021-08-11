@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 #Script to setup the environment to test directly in the container
 
