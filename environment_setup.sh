@@ -6,3 +6,4 @@ echo "Update local package repository"
 apk update 
 echo "Install required apps"
 apk add git bash curl
+bash
